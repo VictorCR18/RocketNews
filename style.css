@@ -118,7 +118,7 @@ a {
     vertical-align: middle;
 }
 
-/* 
+
 @media screen and (max-width : 1024px) {
 
     .main {
@@ -133,9 +133,6 @@ a {
         background-size: cover;
     }
 
-    .form {
-        width: 50%;
-    }
 
 }
 
@@ -157,4 +154,4 @@ a {
         width: 70%;
     }
 
-} */
+}
