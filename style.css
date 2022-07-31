@@ -22,11 +22,11 @@ body {
 }
 
 .picture {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-image: url(assets/read_news.jpg);
     background-position: top right;
-    background-size: 170%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .form {
-    position: fixed;
+    position: absolute;
     width: 57%;
     height: auto;
 }
@@ -75,6 +75,7 @@ body {
 .email {
     width: 100%;
     height: 40px;
+    padding-left: 15px;
     border: 0;
     border-left: #04D361 solid 6px;
 }
@@ -102,7 +103,7 @@ button:hover {
 
 .footer {
     margin-top: 15px;
-    
+
 }
 
 a {
@@ -112,3 +113,48 @@ a {
     color: #8257e5;
     font-size: 20px;
 }
+
+.arrow {
+    vertical-align: middle;
+}
+
+/* 
+@media screen and (max-width : 1024px) {
+
+    .main {
+        width: 100vw;
+        height: auto;
+        margin: 20px;
+    }
+
+    .picture {
+        width: 100%;
+        height: 100%; 
+        background-size: cover;
+    }
+
+    .form {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    .main {
+        width: 100vw;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .picture {
+        background-image: none;
+        width: 0%;
+        height: 0%;
+    }
+
+    .form {
+        width: 70%;
+    }
+
+} */
