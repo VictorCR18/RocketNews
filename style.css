@@ -11,8 +11,8 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -24,8 +24,8 @@ body {
 }
 
 .picture {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: url(assets/read_news.jpg);
     background-position: top right;
     background-size: cover;
@@ -56,7 +56,7 @@ body {
 }
 
 .form {
-    position: absolute;
+    position: fixed;
     width: 57%;
     height: auto;
 }
@@ -124,7 +124,7 @@ a {
 @media screen and (max-width : 1024px) {
     
     .main {
-        width: 100vw;
+        width: 100%;
         height: auto;
     }
 
@@ -144,7 +144,7 @@ a {
     }
 
     .main {
-        width: 100vw;
+        width: 100%;
         height: auto;
         padding: 20px;
         margin: 0;
